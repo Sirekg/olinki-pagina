@@ -3,17 +3,10 @@
 function conexion($tabla, $usuario, $pass)
 {
     try {
-		$conexion = new PDO("mysql:host=olinki1.dyndns.info; port=3306; dbname=$tabla; charset=UTF8", $usuario, $pass);
-		echo "conetado a olinki.dyndns";
+		$conexion = new PDO("mysql:host=192.168.1.234; port=3306; dbname=$tabla; charset=UTF8", $usuario, $pass);
 		return $conexion;
     } catch (PDOException $e) {
 	}
-    try {
-        $conexion = new PDO("mysql:host=olinki.dyndns.info; port=3306; dbname=$tabla", $usuario, $pass);
-		echo "conectado a olinki1.dyndns";
-		return $conexion;
-    } catch (PDOException $e) {
-    }
 }
 
 function limpiarDatos($datos){

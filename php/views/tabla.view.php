@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PCQ3D8F');</script>
+<!-- End Google Tag Manager -->
+
 <title>Sistemas Olinki</title>
 	
 	<!-- Meta tag Keywords -->
@@ -10,9 +19,6 @@
 	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 	<script src="../js/jquery.swipebox.min.js"></script> 
 	<!-- script-for-swipebox -->
-
-	<!-- script for popper -->
-	<script src="../js/popper.min.js"></script>
 
 
 	<script type="text/javascript">
@@ -58,6 +64,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 <!-- //font-awesome -->
+
 	<!-- web-fonts -->
 	
 	<link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -67,13 +74,18 @@
 </head>
 
 <body>
-	<!-- Navigation -->
-	<div class="container">
-		<!-- header top -->
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCQ3D8F"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<!-- Información de contacto -->
+	<div class="container"> 
 		<div class="head-wl d-md-flex py-3">
 			<div class="headder-w3 text-uppercase p-1 text-center logo-nav">
 				<img src="../images/olinki.png" alt="">
-			  <h1><a href="../index.html"></a></h1>
+				<h1><a href="../index.html"></a></h1>
 			</div>
 
 			<div class="w3-header-top-right-text text-center">
@@ -93,179 +105,92 @@
 					<li><a href="https://www.facebook.com/Sistemas.Olinki.Distribuidor.Autorizado/" target="_blank" id="swipebox-close"><span class="fab fa-facebook-f"></span></a></li>
 					<li><a href="https://www.instagram.com/sistemas.olinki/?hl=es-la" target="_blank"><span class="fab fa-instagram"></span></a></li>
 					<li><a href="https://www.youtube.com/channel/UCBfEfCXgomw78-8EDzrtJbQ?view_as=subscriber" target="_blank"><span class="fab fa-youtube"></span></a></li>
-					
-			  </ul>
+				</ul>
 			</div>
 		</div>
-		<!-- //header top -->
-	
-		<!-- Nav bar -->
-		<!-- <nav class="navbar navbar-expand-lg navbar-light bg-faded">
-		  <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-			<ul class="navbar-nav">
-			  <li class="nav-item active">
-				<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="../about.html">Olinki</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="../services.html">Servicios</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="../gallery.html">Galeria Olinki</a>
-			  </li>
-			  <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				  Venta & Renta
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				  <a class="dropdown-item" href="../error.html">Venta Multifuncionales</a>
-					<a class="dropdown-item" href="../arrendamiento.html">Renta multifuncionales</a>
-					<a class="dropdown-item" href="php/index.php">Componentes usados</a>
-				</div>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="../contact.html">Contact</a>
-			  </li>
-			</ul>
-		  </div>
-		</nav> -->
-	<!-- Nav bar -->
+		
     </div>
 	<!-- //Navigation -->
 	</div>
 	<div class="container">
-		<section class="inner_page_banner text-center pt-5">
-				<h2 class="page_heading text-uppercase pt-md-5 pt-sm-4">Componentes Usados</h2>
-				<h4 class="text-uppercase pt-2"><a href="../index.html">Inicio</a> </h4>
-		</section>
+	<section class="inner_page_banner text-center pt-4">
+	<h2 class="page_heading text-uppercase pt-md-5 pt-sm-4">Componentes Usados</h2>
+	<h4 class="text-uppercase pt-2"><a href="tabla.php">Inicio</a> </h4>
+</section>
 	</div>
         
 
 		</header>
-		<!-- PRUEBA -->
-
-	<!-- Button trigger modal -->
-
-
 
     <div class="container">
-			<div class="my-5 text-right">
-				<form name=busqueda method="get" action="buscar.php">					<div class="form-group row">
-						<div class="col-md-6 col-12 d-flex justify-conten++t-start">
-							<input class="d-inline form-control" type="text" name="search" placeholder="Buscar">
-							<button type="Submit" class=" btn1 btn-primary"><i class="fa fa-search"></i></button>
-						</div>
-						<div class="col-md-6 col-12 my-3 my-md-0 d-flex justify-content-start">
-							<select name=modelo class="d-inline-block w-50 form-control" id="exampleFormControlSelect1" placeholder="Modelo">
-								<option value="">Modelos</option>
-								<?php foreach ($modelos as $modelo): ?>
-								<option <?php echo "value=' " . $modelo["IdModelo"];?>'><?php echo $modelo["Modelo"]; ?></option>
-								<?php endforeach; ?>
-							</select>
-							<select name=j class="d-inline-block w-50 form-control" id="exampleFormControlSelect2">
-								<option value="">Unidad</option>
-								<?php foreach ($unidades as $unidad): ?>
-								<option <?php echo "value=' " . $unidad["IdUnidad"];?>'><?php echo $unidad["Unidad"]; ?></option>
-								<?php endforeach; ?>
-							</select>
-						</div>
+		<div class="my-5 text-right">
+			<form name=busqueda method="get" action="buscar.php">	
+				<div class="form-group row">
+					<div class="col-8 d-flex justify-content-start">
+						<input class="d-inline form-control" type="text" name="search" placeholder="Buscar por número de parte o descripción">
+						<button type="Submit" class=" btn btn-primary"><i class="fa fa-search"></i></button>
 					</div>
-				</form>      
-			</div>
+					<div class="col-md-6 col-12 my-3 my-md-0 d-flex justify-content-start">
+						<select name=modelo class="d-inline-block w-50 form-control" id="exampleFormControlSelect1" placeholder="Modelo">
+							<option value="">Modelos</option>
+							<?php foreach ($modelos as $modelo): ?>
+							<option <?php echo "value=' " . $modelo["IdModelo"] . "'";?> ><?php echo $modelo["Modelo"]; ?></option>
+							<?php endforeach; ?>
+						</select>
+						<select name=j class="d-inline-block w-50 form-control" id="exampleFormControlSelect2">
+							<option value="">Unidad</option>
+							<?php foreach ($unidades as $unidad): ?>
+							<option <?php echo "value=' " . $unidad["IdUnidad"] . "'";?>><?php echo $unidad["Unidad"]; ?></option>
+							<?php endforeach; ?>
+						</select>
+						<button type="Submit" class=" btn btn-primary"><i class="fa fa-search"></i></button>
+					</div>
+				</div>
+			</form>      
 		</div>
-		<div class="container">
-			<div class="py-3 table-responsive">
-        <table class="table table-striped table-white table-hover table-sm">
-					<thead class="thead-light">
-						<tr class="text-center">
-							<div class="col-">
-								<th scope="col" class="column-1">Imagen</th>
+	</div>
+	
+	<!-- Tabla de productos -->
+	
+	<div class="container">
+		<div class="py-3 table-responsive">
+			<table class="table table-striped table-white table-hover table-sm">
+				<thead class="thead-light">
+					<tr class="text-center">
+						<th scope="col" class="column-1">Componente</th>
+						<th scope="col" class="column-2">Descripcion</th>		
+					</tr>
+				</thead>
+				<?php $sum = 1; ?>
+				<?php foreach ($piezas as $pieza): ?>
+				<tr class="piezas text-center">
+					<td class="column-1">
+						<div class="py-2">
+							<p>No. de Parte: <?php echo substr($pieza["NumParte"], 0, -3); ?></p>
+							<p>Serie: <?php echo $pieza["IdPartidaEntrada"]; ?></p>
+							<a href="#imgModal<?php echo $sum; ?>" data-toggle="modal">
+								<img src="img/<?php echo $pieza["IdPartidaEntrada"]; ?>.png" class="img-pieza"  alt="">
+							</a>
+							<div class="col-md-12">
+								<button type="button" class="my-3 btn btn-primary" data-toggle="modal" data-target="#exampleModal<?php echo $sum; ?>">
+									Cotizar
+								</button>
 							</div>
-							<th scope="col" class="column-2">Descripcion</th>
-							<th scope="col" class="column-3">Número de serie</th>											
-							<th scope="col" class="column-4">Precio</th>		
-							<th scope="col" class="column-5">Más información</th>					
-						</tr>
-					</thead>
-					<?php $sum = 1; ?>
-						<?php foreach ($piezas as $pieza): ?>
-            <tr class="py-3 piezas text-center">
-							<td class="column-1">
-								<section class="py-2">
-									<a href="#imgModal<?php echo $sum; ?>" data-toggle="modal">
-										<img src="img/<?php echo $pieza["IdPartidaEntrada"]; ?>.png" class="img-pieza"  alt="">
-									</a>
-									<div class="modal fade show" id="imgModal<?php echo $sum; ?>" role="dialog">
-										<div class="modal-dialog">
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal">
-														<span aria-hidden="true">&times;</span>
-													</button>
-												</div>
-												<div class="modal-body" id="dynamic-content">
-													<img src="img/<?php echo $pieza["IdPartidaEntrada"]; ?>.png" class="" alt=""/>
-												</div>
-											</div>
-										</div>
-									</div>
-								</td>
-								<td class="column-2"><?php echo $pieza["DescripcionProducto"]; ?></td>
-								<td class="column-3"><?php echo $pieza["IdPartidaEntrada"]; ?></td>
-								<td class="column-4"><?php echo $pieza["PrecioCliente"]; ?></td>
-                <td class="column-5">
-									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal<?php echo $sum; ?>">
-										<?php $IdPieza = $pieza["IdPartidaEntrada"]; ?>
-										Cotizar
-										
-									</button>
-								</th>
-								</tr>
-                
-                
-																<!-- Modal -->
-									<div class="modal fade" id="exampleModal<?php echo $sum; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-										<div class="modal-dialog" role="document">
-											<div class="modal-content">
-												<div class="modal-header">
-													<h5 class="modal-title" id="exampleModalLabel"><?php echo "<span>" . $IdPieza . "</span>"; ?></h5>
-													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-														<span aria-hidden="true">&times;</span>
-													</button>
-												</div>
-												<div class="modal-body">
-												<div class="contact-wthree">
-														<form action="enviar.php" method="post">
-															<input type="text" name="name" placeholder="Nombre" required> 
-															<input class="email" name="email" type="email" placeholder="Email" required>
-															<input type="text" name="phone" placeholder="Teléfono" required> 
-															
-															<textarea name="message" placeholder="Mensaje" required></textarea>
-															<input type="submit" value="Enviar">
-														</form>
-													</div>
-												</div>
-													<div class="modal-footer text-center">
-														Sistemas Olinki S.A. de C.V.
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-										<!-- //PRUEBA -->
-							<?php ++$sum ?>
+							
+						</div>
+					</td>
+					<td class="column-2"><?php echo $pieza["DescripcionProducto"]; ?></td>
+				</tr>
 						
 						
-            <?php endforeach; ?>
-        </table>
-			</div>
+						<?php ++$sum ?>
+						<?php endforeach; ?>
+			</table>
 		</div>
+	</div>
+	
+	<!-- //Tabla de productos -->
+	
 	
 <!-- Empieza código de php para paginación -->
 
@@ -311,7 +236,7 @@
 					}
 								?>
 								</div>
-				</div> 
+        </div> 
 				<div class="col-sm-2 text-center">
             <?php if($actual_page != $total_pages): ?>
             <a href="tabla.php?p=<?php echo $actual_page + 1; ?>" class="link-pag">Siguiente</a>
@@ -319,19 +244,6 @@
 				</div>
 			</div>
 		</div>
-				
-				<!-- Newsletter  -->
-<section class="newsletter py-5 my-lg-5" id="newsletter">
-	<h3 class="heading text-center text-uppercase">SUSCRIBIRSE AL BOLETÍN INFORMATIVO</h3>
-	<p class="heading-bottom text-center font-italic mb-5">Sistemas Olinki S.A. de C.V.</p>
-	<div class="container">
-		<form action="#" method="post">
-			<input type="email" name="Email" placeholder="Ingresa tu correo..." required>
-			<input type="submit" class="text-uppercase" value="Enviar">
-		</form>
-	</div>
-</section>
-<!-- //Newsletter  -->
 
 <!-- footer -->
 <footer>
@@ -345,16 +257,6 @@
 						
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 footer-grid mt-md-0 mt-sm-3 mt-3">
-					<h3 class="text-uppercase mb-3">Solutions</h3>
-					<ul>
-						<li> <a href="#">Industrial Chemicals</a> </li>
-						<li> <a href="#">Machinery and Tools</a> </li>
-						<li> <a href="#">Coal and Solid Fuels</a> </li>
-						<li> <a href="#">Oil & Gas Revolution</a> </li>
-						<li> <a href="#">High Quality Materials</a> </li>
-					</ul>
-				</div>
 				<div class="col-lg-3 col-md-6 mt-lg-0 mt-md-4 mt-sm-3 mt-3 footer-grid">
 					<h3 class="text-uppercase mb-3">Contáctenos</h3>
 					<address>
@@ -364,29 +266,6 @@
 						<p class="pb-2"><span class="fa fa-globe" aria-hidden="true"></span><a href="#">www.olinki.com.mx</a></p>
 					</address>
 				</div>
-				<div class="col-lg-3 col-md-6 mt-lg-0 mt-md-4 mt-sm-3 mt-3 agile-footer-grid footer-grid">
-					<h3 class="text-uppercase mb-3">Instagram Posts</h3>
-					<div class="row insta">
-						<div class="col-4 w3_agileits_footer_grid_left">
-							<a href="#"><img src="../images/i1.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="col-4 w3_agileits_footer_grid_left">
-							<a href="#"><img src="../images/i2.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="col-4 w3_agileits_footer_grid_left">
-							<a href="#"><img src="../images/i3.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="col-4 w3_agileits_footer_grid_left">
-							<a href="#"><img src="../images/i4.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="col-4 w3_agileits_footer_grid_left">
-							<a href="#"><img src="../images/i1.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-						<div class="col-4 w3_agileits_footer_grid_left">
-							<a href="#"><img src="../images/i2.jpg" alt=" " class="img-responsive" /></a>
-						</div>
-					</div>
-				</div>
 			</div>
 			<div class="wthree_copy_right p-3">
 				<p class="text-capitalize">Sistemas Olinki S.A. de C.V.   Marzo 2019 | <a href="#">Aviso de privacidad</a></p>
@@ -394,7 +273,73 @@
 		</div>
 	</div>
 </footer>
+
+									
+									
 <!-- //footer -->
+
+<?php $sum = 1; ?>
+<?php foreach ($piezas as $pieza): ?>
+
+<!-- Modal imagen -->
+						
+<div class="modal fade show" id="imgModal<?php echo $sum; ?>" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body" id="dynamic-content">
+				<img src="img/<?php echo $pieza["IdPartidaEntrada"]; ?>.png" class="" alt=""/>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- //Modal imagen -->
+
+
+<!-- Modal botón cotizar-->
+
+	<!-- Variable No. Serie para mandar a CorreoPHP.php -->
+	<?php $IdPieza = $pieza["IdPartidaEntrada"]; ?>
+
+<div class="modal fade" id="exampleModal<?php echo $sum; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel"><?php echo "<span> No. Serie " . $IdPieza . "</span>"; ?></h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="contact-wthree">
+					<form action="PHPMailer/CorreoPHP.php" method="post">
+						<input type="hidden" name="IdPieza" value="<?php echo $IdPieza; ?>"> 
+						<input type="text" name="nombre" placeholder="Nombre" required> 
+						<input class="email" name="correo" type="email" placeholder="Email" required>
+						<input type="text" name="telefono" placeholder="Teléfono" required> 
+						<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+						<input type="submit" value="Enviar">
+					</form>
+				</div>
+			</div>
+				<div class="modal-footer text-center">
+					<p>Sistemas Olinki S.A. de C.V.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- //Modal botón cotizar -->
+
+<?php ++$sum ?>
+<?php endforeach; ?>
+						
 <!-- js-scripts -->		
 
 	<!-- js -->
